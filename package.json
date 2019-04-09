@@ -7,9 +7,9 @@
     "dist"
   ],
   "scripts": {
-    "build": "webpack --config webpack.config.js",
+    "build": "npm update && webpack --config webpack.config.js",
     "dev": "webpack-dev-server --mode development --open",
-    "prepublish": "npm run build && npm version patch"
+    "prepublish": "npm run build && git add . && git commit -m 'publishing' && git push && npm version patch"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/edmulraney/fe-poc-registry#readme",
   "dependencies": {
-    "fe-poc-dashboard": "^1.0.9",
+    "fe-poc-dashboard": "^1.0.11",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
