@@ -1,0 +1,35 @@
+{
+  "name": "fe-poc-registry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "files": ["dist"],
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server --mode development --open",
+    "prepublish": "npm run build && npm version patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edmulraney/fe-poc-registry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edmulraney/fe-poc-registry/issues"
+  },
+  "homepage": "https://github.com/edmulraney/fe-poc-registry#readme",
+  "dependencies": {
+    "fe-poc-dashboard": "^1.0.9",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}

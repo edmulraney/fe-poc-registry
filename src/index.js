@@ -1,0 +1,1 @@
+require('fe-poc-dashboard')
