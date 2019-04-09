@@ -1,1 +1,5 @@
-require('fe-poc-dashboard')
+const dashboard = require('fe-poc-dashboard')
+
+export {
+    dashboard,
+}
