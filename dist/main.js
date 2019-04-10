@@ -105,7 +105,7 @@ eval("/******/ (function(modules) { // webpackBootstrap\n/******/ \t// The modul
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"dashboard\", function() { return dashboard; });\nvar dashboard = __webpack_require__(/*! fe-poc-dashboard */ \"./node_modules/fe-poc-dashboard/dist/main.js\");\n\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"dashboard\", function() { return dashboard; });\nvar dashboard = __webpack_require__(/*! fe-poc-dashboard */ \"./node_modules/fe-poc-dashboard/dist/main.js\");\n\nconsole.log('in dashboard: ', dashboard);\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
