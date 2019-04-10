@@ -2,7 +2,7 @@
   "name": "fe-poc-registry",
   "version": "1.0.3",
   "description": "",
-  "main": "dist/index.js",
+  "main": "dist/main.js",
   "files": [
     "dist"
   ],
@@ -27,6 +27,7 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
